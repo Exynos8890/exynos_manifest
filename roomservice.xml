@@ -10,7 +10,7 @@
   <project name="exynos8890/kernel_universal8890" path="kernel/samsung/universal8890" remote="github" revision="8.1"/>
   <!--Blobs-->
   <project name="exynos8890/vendor_hero-common" path="vendor/samsung/hero-common" remote="github" revision="8.1"/>
-  <project name="ivanmeler/proprietary_vendor_seal" path="vendor/seal/seal" remote="github" revision="master"/>
+  <project name="exynos8890/vendor_hero-extra" path="vendor/hero-extra" remote="github" revision="8.1"/>
   <!--Linaro Toolchain-->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-linaro" name="ivanmeler/linaro" clone-depth="1" revision="master" remote="github"/>
 </manifest>
