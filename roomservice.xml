@@ -5,7 +5,7 @@
   <project name="exynos8890/device_herolte" path="device/samsung/herolte" remote="github" revision="8.1"/>
   <project name="exynos8890/device_hero-common" path="device/samsung/hero-common" remote="github" revision="8.1"/>
   <!--Hardware-->
-  <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1"/>
+  <project name="exynos8890/hardware_samsung" path="hardware/samsung" remote="github" revision="8.1"/>
   <!--Kernel-->
   <project name="exynos8890/kernel_universal8890" path="kernel/samsung/universal8890" remote="github" revision="8.1"/>
   <!--Proprietary Blobs-->
