@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!--Add GitLab Support and fix support for roms that implement their own remote github-->
+  <remote name="gitlab" fetch="https://gitlab.com/">
+  <remote name="githubs" fetch="https://github.com/">
   <!--Device trees-->
-  <project name="exynos8890/device_hero2lte" path="device/samsung/hero2lte" remote="github" revision="8.1"/>
-  <project name="exynos8890/device_herolte" path="device/samsung/herolte" remote="github" revision="8.1"/>
-  <project name="exynos8890/device_hero-common" path="device/samsung/hero-common" remote="github" revision="8.1"/>
+  <project name="exynos8890/device_hero2lte" path="device/samsung/hero2lte" remote="gitlab" revision="8.1"/>
+  <project name="exynos8890/device_herolte" path="device/samsung/herolte" remote="gitlab" revision="8.1"/>
+  <project name="exynos8890/device_hero-common" path="device/samsung/hero-common" remote="gitlab" revision="8.1"/>
   <!--Hardware-->
-  <project name="exynos8890/hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1"/>
+  <project name="exynos8890/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="lineage-15.1"/>
   <!--Kernel-->
-  <project name="exynos8890/kernel_universal8890" path="kernel/samsung/universal8890" remote="github" revision="8.1"/>
+  <project name="ivanmeler/kernel_universal8890" path="kernel/samsung/universal8890" remote="githubs" revision="sdfat"/>
   <!--Proprietary Blobs-->
-  <project name="exynos8890/vendor_hero-common" path="vendor/samsung/hero-common" remote="github" revision="8.1"/>
-  <project name="exynos8890/vendor_hero-extra" path="vendor/hero-extra" remote="github" revision="8.1"/>
+  <project name="exynos8890/vendor_hero-common" path="vendor/samsung/hero-common" remote="gitlab" revision="8.1"/>
+  <project name="exynos8890/vendor_hero-extra" path="vendor/hero-extra" remote="gitlab" revision="8.1"/>
   <!--Linaro Toolchain-->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-linaro" name="ivanmeler/linaro" clone-depth="1" revision="master" remote="github"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-linaro" name="ivanmeler/linaro" clone-depth="1" revision="master" remote="githubs"/>
 </manifest>
