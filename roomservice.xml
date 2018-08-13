@@ -2,7 +2,7 @@
 <manifest>
   <!--Device tree-->
   <project name="exynos8890/device_hero2lte" path="device/samsung/hero2lte" remote="github" revision="oreo"/>
-  <project name="ivanmeler/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" revision="lineage-15.1"/>
+  <project name="exynos8890/device_herolte" path="device/samsung/herolte" remote="github" revision="oreo"/>
   <project name="exynos8890/device_hero-common" path="device/samsung/hero-common" remote="github" revision="oreo"/>
   <!--Hardware-->
   <project name="exynos8890/hardware_samsung" path="hardware/samsung" remote="github" revision="oreo"/>
