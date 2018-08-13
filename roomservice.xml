@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!--Device trees-->
-  <project name="exynos8890/device_hero2lte" path="device/samsung/hero2lte" remote="github" revision="8.1"/>
-  <project name="exynos8890/device_herolte" path="device/samsung/herolte" remote="github" revision="8.1"/>
-  <project name="exynos8890/device_hero-common" path="device/samsung/hero-common" remote="github" revision="8.1"/>
+  <!--Device tree-->
+  <project name="exynos8890/device_hero2lte" path="device/samsung/hero2lte" remote="github" revision="oreo"/>
+  <project name="ivanmeler/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" revision="lineage-15.1"/>
+  <project name="exynos8890/device_hero-common" path="device/samsung/hero-common" remote="github" revision="oreo"/>
   <!--Hardware-->
-  <project name="exynos8890/hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1"/>
+  <project name="exynos8890/hardware_samsung" path="hardware/samsung" remote="github" revision="oreo"/>
   <!--Kernel-->
-  <project name="exynos8890/kernel_universal8890" path="kernel/samsung/universal8890" remote="github" revision="8.1"/>
-  <!--Proprietary Blobs-->
-  <project name="exynos8890/vendor_hero-common" path="vendor/samsung/hero-common" remote="github" revision="8.1"/>
-  <project name="exynos8890/vendor_hero-extra" path="vendor/hero-extra" remote="github" revision="8.1"/>
-  <!--Linaro Toolchain-->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-linaro" name="ivanmeler/linaro" clone-depth="1" revision="master" remote="github"/>
+  <project name="exynos8890/kernel_universal8890" path="kernel/samsung/universal8890" remote="github" revision="oreo"/>
+  <!--Blobs-->
+  <project name="ivanmeler/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="lineage-15.1"/>
+  <project name="ivanmeler/proprietary_vendor_seal" path="vendor/seal/seal" remote="github" revision="master"/>
 </manifest>
