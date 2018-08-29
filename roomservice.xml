@@ -5,9 +5,9 @@
   <project name="exynos8890/device_herolte" path="device/samsung/herolte" remote="github" revision="havoc"/>
   <project name="exynos8890/device_hero-common" path="device/samsung/hero-common" remote="github" revision="havoc"/>
   <!--Hardware-->
-  <project name="exynos8890/hardware_samsung" path="hardware/samsung" remote="github" revision="rr"/>
+  <project name="exynos8890/hardware_samsung" path="hardware/samsung" remote="github" revision="havoc"/>
   <!--Kernel-->
-  <project name="exynos8890/kernel_universal8890" path="kernel/samsung/universal8890" remote="github" revision="oreo"/>
+  <project name="exynos8890/kernel_universal8890" path="kernel/samsung/universal8890" remote="github" revision="havoc"/>
   <!--Blobs-->
   <project name="ivanmeler/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="lineage-15.1"/>
   <project name="ivanmeler/proprietary_vendor_seal" path="vendor/seal/seal" remote="github" revision="master"/>
